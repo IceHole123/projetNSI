@@ -1616,7 +1616,7 @@ nav
 }
 h1
 {
-    font-size: 19px;
+    font-size: 21px;
 }
 .navrentre
 {
@@ -1949,6 +1949,12 @@ html
     89%{height:500px; width:500px; border-radius:50%;}
     90%{background-image: url(fondtxtsole.jpg); border-width: 2px; margin-left:auto; margin-top: 225px;}
     100%{background-image: url(texturesoleil.jpg); border-width: 0px; z-index: 1;color:rgb(200, 200, 200);}
+}
+@media (max-width:600px)
+{
+h1
+{
+    font-size: 15px;
 }
 }
 
