@@ -1,0 +1,1957 @@
+html
+{
+    background-image:url(cieletoile2.jpg);
+    background-size: cover;
+    overflow-x :hidden ;
+    overflow-y: hidden;
+}
+a:link{text-decoration:none;}
+a
+{
+    color:rgb(173, 55, 0);
+    font-size:25px;
+}
+a:hover
+{
+    color:black;
+    text-decoration: underline;
+}
+li
+{
+    display:inline;
+}
+header
+{
+    color:white;
+    background-color: black;
+    display: flex;
+    border-bottom-style: double;
+    border-bottom-color: rgb(200, 200, 200);
+    border-bottom-width: 6px;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    justify-content: center;
+    position:absolute;
+    width:100%;
+    top:0px;
+    left:0px;
+    z-index:3;
+}
+nav
+{
+    background-color: rgb(200, 200, 200);
+    display:flex;
+    justify-content: center;
+    position:absolute;
+    top:45px;
+    width:100%;
+    z-index:2;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius:20%;
+    border-bottom-style:double;
+    border-bottom-color:black;
+    border-bottom-width: 5px;
+}
+.navrentre
+{
+    -webkit-animation-name: menunavrentre;
+    -webkit-animation-delay: 0s;
+    -webkit-animation-duration: 0.3s;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-iteration-count: 1;
+}
+.navsortie
+{
+    -webkit-animation-name:menunavsortie;
+    -webkit-animation-delay: 0s;
+    -webkit-animation-duration: 0.3s;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-iteration-count: 1;
+}
+
+
+.neptune
+{
+    height: 74px;
+    width: 74px;
+    border-style: solid;
+    border-width: 0px;
+    border-color: rgb(43, 57, 255);
+    border-radius: 50%;
+    background-image: url(textureneptune.png);
+    background-size:cover ;
+    margin-top:25%;
+    margin-left:0.5%;
+    position: absolute;
+}
+.uranus
+{
+    height: 76px;
+    width: 76px;
+    border-style: solid;
+    border-width: 0px;
+    border-color: rgb(34, 255, 255);
+    border-radius: 50%;
+    background-image: url(textureuranus.jpg);
+    background-size:cover;
+    margin-top:25%;
+    margin-left:9%;
+    position:absolute;
+}
+.saturne
+{
+    height: 152px;
+    width: 380px;
+    border-style: solid;
+    border-width: 0px;
+    border-color: rgb(255, 159, 34);
+    background-image:url(texturesaturne.png);
+    background-size: cover;
+    margin-top:23%;
+    margin-left:18%;
+    position:absolute;
+    z-index:3;
+}
+.jupiter
+{
+    height: 194px;
+    width: 194px;
+    border-style: solid;
+    border-width: 0px;
+    border-color: rgb(255, 197, 120);
+    border-radius: 50%;
+    background-image: url(textureJupiter.jpg);
+    background-size: cover;
+    margin-top:22.5%;
+    margin-left:42%;
+    position:absolute;
+    z-index:3;
+}
+.mars
+{
+    height: 25px;
+    width: 25px;
+    border-style: solid;
+    border-width: 0px;
+    border-color: rgb(184, 104, 0);
+    border-radius: 50%;
+    background-image: url(texturemars.jpg);
+    background-size: cover;
+    margin-top:27.5%;
+    margin-left:58%;
+    position:absolute;
+    z-index:3;
+}
+.terre
+{
+    height: 50px;
+    width: 50px;
+    border-style: solid;
+    border-width: 0px;
+    border-color: rgb(0, 81, 233);
+    border-radius: 50%;
+    background-image: url(textureterre.jpg);
+    background-size: cover;
+    margin-top:27%;
+    margin-left:67%;
+    position:absolute;
+    z-index:3;
+}
+.venus
+{
+    height: 50px;
+    width: 50px;
+    border-style: solid;
+    border-width: 0px;
+    border-color: rgb(136, 136, 136);
+    border-radius: 50%;
+    background-image: url(textureVenus.jpg);
+    background-size: cover;
+    margin-top:27%;
+    margin-left:76%;
+    position:absolute;
+    z-index:3;
+}
+.mercure
+{
+    height: 25px;
+    width: 25px;
+    border-style: solid;
+    border-width: 0px;
+    border-color: rgb(197, 197, 197);
+    border-radius: 50%;
+    background-image: url(texturemercure.jpg);
+    background-size: cover;
+    margin-top:27.5%;
+    margin-left:85%;
+    position:absolute;
+    z-index:3;
+}
+.soleil
+{
+    height: 1204px;
+    width: 1204px;
+    border-style: solid;
+    border-width: 0px;
+    border-color: rgb(255, 166, 0);
+    border-radius: 50%;
+    background-image: url(texturesoleil.jpg);
+    background-size: cover;
+    margin-top:-5%;
+    margin-left:90%;
+    position:absolute;
+    z-index:0;
+}
+h1
+{
+    font-size: 35px;
+}
+h6
+{
+    position:absolute;
+    top:9px;
+    color:black;
+    margin-left: auto;
+    font-weight: 100;
+    font-size:15px;
+}
+.lune
+{
+    padding:5px;
+}
+article
+{
+    font-size: 0px;
+}
+.planete
+{
+    width:0px;
+    height:0px;
+}
+.neptuneon
+{
+    -webkit-animation-name: onneptune;
+    -webkit-animation-delay:0s ;
+    -webkit-animation-duration: 1.2s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+}
+.neptuneout
+{
+    -webkit-animation-name: outneptune;
+    -webkit-animation-delay:0s ;
+    -webkit-animation-duration: 0.9s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+}
+.imgnepton
+{
+    -webkit-animation-name: onimgnept;
+    -webkit-animation-delay:0s ;
+    -webkit-animation-duration: 1.2s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+}
+.imgneptout
+{
+    -webkit-animation-name: outimgnept;
+    -webkit-animation-delay:0s ;
+    -webkit-animation-duration: 0.9s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+}
+.uranuson
+{
+    -webkit-animation-name: onuranus;
+    -webkit-animation-delay:0s ;
+    -webkit-animation-duration: 1.2s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+}
+.uranusout
+{
+    -webkit-animation-name: outuranus;
+    -webkit-animation-delay:0s ;
+    -webkit-animation-duration: 0.9s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+}
+.imguranon
+{
+    -webkit-animation-name: onimguran;
+    -webkit-animation-delay:0s ;
+    -webkit-animation-duration: 1.2s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+}
+.imguranout
+{
+    -webkit-animation-name: outimguran;
+    -webkit-animation-delay:0s ;
+    -webkit-animation-duration: 0.9s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+}
+.saturneon
+{
+    -webkit-animation-name: onsaturne;
+    -webkit-animation-delay:0s ;
+    -webkit-animation-duration: 1.2s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+}
+.saturneout
+{
+    -webkit-animation-name: outsaturne;
+    -webkit-animation-delay:0s ;
+    -webkit-animation-duration: 0.9s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+}
+.imgsatuon
+{
+    -webkit-animation-name: onimgsatu;
+    -webkit-animation-delay:0s ;
+    -webkit-animation-duration: 1.2s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+}
+.imgsatuout
+{
+    -webkit-animation-name: outimgsatu;
+    -webkit-animation-delay:0s ;
+    -webkit-animation-duration: 0.9s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+}
+.jupiteron
+{
+    -webkit-animation-name: onjupiter;
+    -webkit-animation-delay:0s ;
+    -webkit-animation-duration: 1.2s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+}
+.jupiterout
+{
+    -webkit-animation-name: outjupiter;
+    -webkit-animation-delay:0s ;
+    -webkit-animation-duration: 0.9s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+}
+.imgjupion
+{
+    -webkit-animation-name: onimgjupi;
+    -webkit-animation-delay:0s ;
+    -webkit-animation-duration: 1.2s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+}
+.imgjupiout
+{
+    -webkit-animation-name: outimgjupi;
+    -webkit-animation-delay:0s ;
+    -webkit-animation-duration: 0.9s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+}
+.marson
+{
+    -webkit-animation-name: onmars;
+    -webkit-animation-delay:0s ;
+    -webkit-animation-duration: 1.2s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+}
+.marsout
+{
+    -webkit-animation-name: outmars;
+    -webkit-animation-delay:0s ;
+    -webkit-animation-duration: 0.9s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+}
+.imgmarson
+{
+    -webkit-animation-name: onimgmars;
+    -webkit-animation-delay:0s ;
+    -webkit-animation-duration: 1.2s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+}
+.imgmarsout
+{
+    -webkit-animation-name: outimgmars;
+    -webkit-animation-delay:0s ;
+    -webkit-animation-duration: 0.9s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+}
+.terreon
+{
+    -webkit-animation-name: onterre;
+    -webkit-animation-delay:0s ;
+    -webkit-animation-duration: 1.2s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+}
+.terreout
+{
+    -webkit-animation-name: outterre;
+    -webkit-animation-delay:0s ;
+    -webkit-animation-duration: 0.9s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+}
+.imgterron
+{
+    -webkit-animation-name: onimgterr;
+    -webkit-animation-delay:0s ;
+    -webkit-animation-duration: 1.2s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+}
+.imgterrout
+{
+    -webkit-animation-name: outimgterr;
+    -webkit-animation-delay:0s ;
+    -webkit-animation-duration: 0.9s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+}
+.venuson
+{
+    -webkit-animation-name: onvenus;
+    -webkit-animation-delay:0s ;
+    -webkit-animation-duration: 1.2s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+}
+.venusout
+{
+    -webkit-animation-name: outvenus;
+    -webkit-animation-delay:0s ;
+    -webkit-animation-duration: 0.9s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+}
+.imgvenuon
+{
+    -webkit-animation-name: onimgvenu;
+    -webkit-animation-delay:0s ;
+    -webkit-animation-duration: 1.2s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+}
+.imgvenuout
+{
+    -webkit-animation-name: outimgvenu;
+    -webkit-animation-delay:0s ;
+    -webkit-animation-duration: 0.9s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+}
+.mercureon
+{
+    -webkit-animation-name: onmercure;
+    -webkit-animation-delay:0s ;
+    -webkit-animation-duration: 1.2s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+}
+.mercureout
+{
+    -webkit-animation-name: outmercure;
+    -webkit-animation-delay:0s ;
+    -webkit-animation-duration: 0.9s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+}
+.imgmercon
+{
+    -webkit-animation-name: onimgmerc;
+    -webkit-animation-delay:0s ;
+    -webkit-animation-duration: 1.2s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+}
+.imgmercout
+{
+    -webkit-animation-name: outimgmerc;
+    -webkit-animation-delay:0s ;
+    -webkit-animation-duration: 0.9s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+}
+.soleilon
+{
+    -webkit-animation-name: onsoleil;
+    -webkit-animation-delay:0s ;
+    -webkit-animation-duration: 1.2s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+}
+.soleilout
+{
+    -webkit-animation-name: outsoleil;
+    -webkit-animation-delay:0s ;
+    -webkit-animation-duration: 0.9s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+}
+.imgsoleon
+{
+    -webkit-animation-name: onimgsole;
+    -webkit-animation-delay:0s ;
+    -webkit-animation-duration: 1.2s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+}
+.imgsoleout
+{
+    -webkit-animation-name: outimgsole;
+    -webkit-animation-delay:0s ;
+    -webkit-animation-duration: 0.9s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+}
+@keyframes menunavsortie
+{
+    0%{top:45px;}
+    100%{top:85px;}
+}
+@keyframes menunavrentre
+{
+    0%{top:85px;}
+    100%{top:45px;}
+}
+@keyframes onneptune
+{
+    0%{background-image: url(textureneptune.png); border-width: 0px; z-index: 1;color:rgb(200, 200, 200);}
+    10%{background-image: url(fondtxtnept.jpg); border-width: 2px; margin-left:0.5%; margin-top: 25%;}
+    11%{height:74px; width:74px; border-radius:50%;}
+    75%{height:450px;width:1000px;border-radius:2%; margin-left:0.5%;margin-top:12%; z-index:10;background-image: url(fondtxtnept.jpg); border-width: 2px;font-size:0px;}
+    76%{height:450px;width:1000px;border-radius:2%; margin-left:0.5%;margin-top:12%; z-index:10;background-image: url(fondtxtnept.jpg); border-width: 2px;font-size:20px;color:rgb(200, 200, 200);}
+    100%{height:450px;width:1000px;border-radius:2%; margin-left:0.5%;margin-top:12%; z-index:10;background-image: url(fondtxtnept.jpg); border-width: 2px;font-size:20px;color:black;}
+}
+@keyframes outneptune
+{
+    0%{height:450px;width:1000px;border-radius:2%; margin-left:0.5%;margin-top:12%; z-index:10;background-image: url(fondtxtnept.jpg); border-width: 2px;font-size:20px;color:black;}
+    24%{height:450px;width:1000px;border-radius:2%; margin-left:0.5%;margin-top:12%; z-index:10;background-image: url(fondtxtnept.jpg); border-width: 2px;font-size:20px; color:rgb(200, 200, 200)}
+    25%{height:450px;width:1000px;border-radius:2%; margin-left:0.5%;margin-top:12%; z-index:10;background-image: url(fondtxtnept.jpg); border-width: 2px;font-size:0px;}
+    89%{height:74px; width:74px; border-radius:50%;}
+    90%{background-image: url(fondtxtnept.jpg); border-width: 2px; margin-left:0.5%; margin-top: 25%;}
+    100%{background-image: url(textureneptune.png); border-width: 0px; z-index: 1;color:rgb(200, 200, 200);}
+}
+@keyframes onimgnept
+{
+    0%{height:0px;width:0px; display:inline;z-index:20;padding:0.5%}
+    76%{height:0px;width:0px}
+    100%{width:300px; height: auto;display: inline;z-index:20;padding:0.5%}
+}
+@keyframes outimgnept
+{
+    0%{width:300px; height: auto;display: inline;z-index:20;padding:0.5%}
+    24%{height:0px;width:0px}
+    100%{height:0px;width:0px; display:inline;z-index:20;padding:0.5%}
+}
+@keyframes onuranus
+{
+    0%{background-image: url(textureuranus.jpg); border-width: 0px; z-index: 1;color:rgb(200, 200, 200);}
+    10%{background-image: url(fondtxturan.jpg); border-width: 2px; margin-left:9%; margin-top: 25%;}
+    11%{height:76px; width:76px; border-radius:50%;}
+    75%{height:450px;width:1000px;border-radius:2%; margin-left:5%;margin-top:12%; z-index:10;background-image: url(fondtxturan.jpg); border-width: 2px;font-size:0px;}
+    76%{height:450px;width:1000px;border-radius:2%; margin-left:5%;margin-top:12%; z-index:10;background-image: url(fondtxturan.jpg); border-width: 2px;font-size:20px;color:rgb(200, 200, 200);}
+    100%{height:450px;width:1000px;border-radius:2%; margin-left:5%;margin-top:12%; z-index:10;background-image: url(fondtxturan.jpg); border-width: 2px;font-size:20px;color:black;}
+}
+@keyframes outuranus
+{
+    0%{height:450px;width:1000px;border-radius:2%; margin-left:5%;margin-top:12%; z-index:10;background-image: url(fondtxturan.jpg); border-width: 2px;font-size:20px;color:black;}
+    24%{height:450px;width:1000px;border-radius:2%; margin-left:5%;margin-top:12%; z-index:10;background-image: url(fondtxturan.jpg); border-width: 2px;font-size:20px; color:rgb(200, 200, 200)}
+    25%{height:450px;width:1000px;border-radius:2%; margin-left:5%;margin-top:12%; z-index:10;background-image: url(fondtxturan.jpg); border-width: 2px;font-size:0px;}
+    89%{height:76px; width:76px; border-radius:50%;}
+    90%{background-image: url(fondtxturan.jpg); border-width: 2px; margin-left:9%; margin-top: 25%;}
+    100%{background-image: url(textureuranus.jpg); border-width: 0px; z-index: 1;color:rgb(200, 200, 200);}
+}
+@keyframes onimguran
+{
+    0%{height:0px;width:0px; display:inline;z-index:20;padding:0.5%}
+    76%{height:0px;width:0px}
+    100%{width:150px; height: auto;display: inline;z-index:20;padding:0.5%}
+}
+@keyframes outimguran
+{
+    0%{width:150px; height: auto;display: inline;z-index:20;padding:0.5%}
+    24%{height:0px;width:0px}
+    100%{height:0px;width:0px; display:inline;z-index:20;padding:0.5%}
+}
+@keyframes onsaturne
+{
+    0%{background-image: url(texturesaturne.png); border-width: 0px; z-index: 1;color:rgb(200, 200, 200);}
+    10%{background-image: url(fondtxtsatu.jpg); border-width: 1px; margin-left:18%; margin-top: 23%;}
+    11%{height:152px; width:380px; border-radius:2%;}
+    75%{height:450px;width:1000px;border-radius:2%; margin-left:5%;margin-top:12%; z-index:10;background-image: url(fondtxtsatu.jpg); border-width: 2px;font-size:0px;}
+    76%{height:450px;width:1000px;border-radius:2%; margin-left:5%;margin-top:12%; z-index:10;background-image: url(fondtxtsatu.jpg); border-width: 2px;font-size:20px;color:rgb(200, 200, 200);}
+    100%{height:450px;width:1000px;border-radius:2%; margin-left:5%;margin-top:12%; z-index:10;background-image: url(fondtxtsatu.jpg); border-width: 2px;font-size:20px;color:black;}
+}
+@keyframes outsaturne
+{
+    0%{height:450px;width:1000px;border-radius:2%; margin-left:5%;margin-top:12%; z-index:10;background-image: url(fondtxtsatu.jpg); border-width: 2px;font-size:20px;color:black;}
+    24%{height:450px;width:1000px;border-radius:2%; margin-left:5%;margin-top:12%; z-index:10;background-image: url(fondtxtsatu.jpg); border-width: 2px;font-size:20px; color:rgb(200, 200, 200)}
+    25%{height:450px;width:1000px;border-radius:2%; margin-left:5%;margin-top:12%; z-index:10;background-image: url(fondtxtsatu.jpg); border-width: 2px;font-size:0px;}
+    89%{height:152px; width:380px; border-radius:2%;}
+    90%{background-image: url(fondtxtsatu.jpg); border-width: 1px; margin-left:18%; margin-top: 23%;}
+    100%{background-image: url(texturesaturne.png); border-width: 0px; z-index: 1;color:rgb(200, 200, 200);}
+}
+@keyframes onimgsatu
+{
+    0%{height:0px;width:0px; display:inline;z-index:20;padding:0.5%}
+    76%{height:0px;width:0px}
+    100%{width:400px; height: auto;display: inline;z-index:20;padding:0.5%}
+}
+@keyframes outimgsatu
+{
+    0%{width:400px; height: auto;display: inline;z-index:20;padding:0.5%}
+    24%{height:0px;width:0px}
+    100%{height:0px;width:0px; display:inline;z-index:20;padding:0.5%}
+}
+@keyframes onjupiter
+{
+    0%{background-image: url(textureJupiter.jpg); border-width: 0px; z-index: 1;color:rgb(200, 200, 200);}
+    10%{background-image: url(fondtxtjupi.jpg); border-width: 2px; margin-left:42%; margin-top: 22.5%;}
+    11%{height:194px; width:194px; border-radius:50%;}
+    75%{height:500px;width:1000px;border-radius:2%; margin-left:10%;margin-top:9%; z-index:10;background-image: url(fondtxtjupi.jpg); border-width: 2px;font-size:0px;}
+    76%{height:500px;width:1000px;border-radius:2%; margin-left:10%;margin-top:9%; z-index:10;background-image: url(fondtxtjupi.jpg); border-width: 2px;font-size:20px;color:rgb(200, 200, 200);}
+    100%{height:500px;width:1000px;border-radius:2%; margin-left:10%;margin-top:9%; z-index:10;background-image: url(fondtxtjupi.jpg); border-width: 2px;font-size:20px;color:black;}
+}
+@keyframes outjupiter
+{
+    0%{height:500px;width:1000px;border-radius:2%; margin-left:10%;margin-top:9%; z-index:10;background-image: url(fondtxtjupi.jpg); border-width: 2px;font-size:20px;color:black;}
+    24%{height:500px;width:1000px;border-radius:2%; margin-left:10%;margin-top:9%; z-index:10;background-image: url(fondtxtjupi.jpg); border-width: 2px;font-size:20px; color:rgb(200, 200, 200)}
+    25%{height:500px;width:1000px;border-radius:2%; margin-left:10%;margin-top:9%; z-index:10;background-image: url(fondtxtjupi.jpg); border-width: 2px;font-size:0px;}
+    89%{height:194px; width:194px; border-radius:50%;}
+    90%{background-image: url(fondtxtjupi.jpg); border-width: 2px; margin-left:42%; margin-top: 22.5%;}
+    100%{background-image: url(textureJupiter.jpg); border-width: 0px; z-index: 1;color:rgb(200, 200, 200);}
+}
+@keyframes onimgjupi
+{
+    0%{height:0px;width:0px; display:inline;z-index:20;padding:0.5%}
+    76%{height:0px;width:0px}
+    100%{width:300px; height: auto;display: inline;z-index:20;padding:0.5%}
+}
+@keyframes outimgjupi
+{
+    0%{width:300px; height: auto;display: inline;z-index:20;padding:0.5%}
+    24%{height:0px;width:0px}
+    100%{height:0px;width:0px; display:inline;z-index:20;padding:0.5%}
+}
+@keyframes onmars
+{
+    0%{background-image: url(texturemars.jpg); border-width: 0px; z-index: 1;color:rgb(200, 200, 200);}
+    10%{background-image: url(fondtxtmars.jpg); border-width: 2px; margin-left:58%; margin-top: 27.5%;}
+    11%{height:25px; width:25px; border-radius:50%;margin-left:58%}
+    75%{height:500px;width:1000px;border-radius:2%; margin-left:13%;margin-top:9%; z-index:10;background-image: url(fondtxtmars.jpg); border-width: 2px;font-size:0px;}
+    76%{height:500px;width:1000px;border-radius:2%; margin-left:13%;margin-top:9%; z-index:10;background-image: url(fondtxtmars.jpg); border-width: 2px;font-size:20px;color:rgb(200, 200, 200);}
+    100%{height:500px;width:1000px;border-radius:2%; margin-left:13%;margin-top:9%; z-index:10;background-image: url(fondtxtmars.jpg); border-width: 2px;font-size:20px;color:black;}
+}
+@keyframes outmars
+{
+    0%{height:500px;width:1000px;border-radius:2%; margin-left:13%;margin-top:9%; z-index:10;background-image: url(fondtxtmars.jpg); border-width: 2px;font-size:20px;color:black;}
+    24%{height:500px;width:1000px;border-radius:2%; margin-left:13%;margin-top:9%; z-index:10;background-image: url(fondtxtmars.jpg); border-width: 2px;font-size:20px; color:rgb(200, 200, 200)}
+    25%{height:500px;width:1000px;border-radius:2%; margin-left:13%;margin-top:9%; z-index:10;background-image: url(fondtxtmars.jpg); border-width: 2px;font-size:0px;}
+    89%{height:25px; width:25px; border-radius:50%;}
+    90%{background-image: url(fondtxtmars.jpg); border-width: 2px; margin-left:58%; margin-top: 27.5%;}
+    100%{background-image: url(texturemars.jpg); border-width: 0px; z-index: 1;color:rgb(200, 200, 200);}
+}
+@keyframes onimgmars
+{
+    0%{height:0px;width:0px; display:inline;z-index:20;padding:0.5%}
+    76%{height:0px;width:0px}
+    100%{width:380px; height: auto;display: inline;z-index:20;padding:0.5%}
+}
+@keyframes outimgmars
+{
+    0%{width:380px; height: auto;display: inline;z-index:20;padding:0.5%}
+    24%{height:0px;width:0px}
+    100%{height:0px;width:0px; display:inline;z-index:20;padding:0.5%}
+}
+@keyframes onterre
+{
+    0%{background-image: url(textureterre.jpg); border-width: 0px; z-index: 1;color:rgb(200, 200, 200);}
+    10%{background-image: url(fondtxtterr.jpg); border-width: 2px; margin-left:67%; margin-top: 27%;}
+    11%{height:50px; width:50px; border-radius:50%;margin-left:67%; margin-top:27%}
+    75%{height:500px;width:1000px;border-radius:2%; margin-left:20%;margin-top:9%; z-index:10;background-image: url(fondtxtterr.jpg); border-width: 2px;font-size:0px;}
+    76%{height:500px;width:1000px;border-radius:2%; margin-left:20%;margin-top:9%; z-index:10;background-image: url(fondtxtterr.jpg); border-width: 2px;font-size:20px;color:rgb(200, 200, 200);}
+    100%{height:500px;width:1000px;border-radius:2%; margin-left:20%;margin-top:9%; z-index:10;background-image: url(fondtxtterr.jpg); border-width: 2px;font-size:20px;color:black;}
+}
+@keyframes outterre
+{
+    0%{height:500px;width:1000px;border-radius:2%; margin-left:20%;margin-top:9%; z-index:10;background-image: url(fondtxtterr.jpg); border-width: 2px;font-size:20px;color:black;}
+    24%{height:500px;width:1000px;border-radius:2%; margin-left:20%;margin-top:9%; z-index:10;background-image: url(fondtxtterr.jpg); border-width: 2px;font-size:20px; color:rgb(200, 200, 200)}
+    25%{height:500px;width:1000px;border-radius:2%; margin-left:20%;margin-top:9%; z-index:10;background-image: url(fondtxtterr.jpg); border-width: 2px;font-size:0px;}
+    89%{height:50px; width:50px; border-radius:50%;}
+    90%{background-image: url(fondtxtterr.jpg); border-width: 2px; margin-left:67%; margin-top: 27%;}
+    100%{background-image: url(textureterre.jpg); border-width: 0px; z-index: 1;color:rgb(200, 200, 200);}
+}
+@keyframes onimgterr
+{
+    0%{height:0px;width:0px; display:inline;z-index:20;padding:0.5%}
+    76%{height:0px;width:0px}
+    100%{width:150px; height: auto;display: inline;z-index:20;padding:0.5%}
+}
+@keyframes outimgterr
+{
+    0%{width:150px; height: auto;display: inline;z-index:20;padding:0.5%}
+    24%{height:0px;width:0px}
+    100%{height:0px;width:0px; display:inline;z-index:20;padding:0.5%}
+}
+@keyframes onvenus
+{
+    0%{background-image: url(texturevenus.jpg); border-width: 0px; z-index: 1;color:rgb(200, 200, 200);}
+    10%{background-image: url(fondtxtvenu.jpg); border-width: 2px; margin-left:76%; margin-top: 27%;}
+    11%{height:50px; width:50px; border-radius:50%;margin-left:76%; margin-top:27%;}
+    75%{height:500px;width:1000px;border-radius:2%; margin-left:27%;margin-top:9%; z-index:10;background-image: url(fondtxtvenu.jpg); border-width: 2px;font-size:0px;}
+    76%{height:500px;width:1000px;border-radius:2%; margin-left:27%;margin-top:9%; z-index:10;background-image: url(fondtxtvenu.jpg); border-width: 2px;font-size:20px;color:rgb(200, 200, 200);}
+    100%{height:500px;width:1000px;border-radius:2%; margin-left:27%;margin-top:9%; z-index:10;background-image: url(fondtxtvenu.jpg); border-width: 2px;font-size:20px;color:black;}
+}
+@keyframes outvenus
+{
+    0%{height:500px;width:1000px;border-radius:2%; margin-left:27%;margin-top:9%; z-index:10;background-image: url(fondtxtvenu.jpg); border-width: 2px;font-size:20px;color:black;}
+    24%{height:500px;width:1000px;border-radius:2%; margin-left:27%;margin-top:9%; z-index:10;background-image: url(fondtxtvenu.jpg); border-width: 2px;font-size:20px; color:rgb(200, 200, 200)}
+    25%{height:500px;width:1000px;border-radius:2%; margin-left:27%;margin-top:9%; z-index:10;background-image: url(fondtxtvenu.jpg); border-width: 2px;font-size:0px;}
+    89%{height:50px; width:50px; border-radius:50%;}
+    90%{background-image: url(fondtxtvenu.jpg); border-width: 2px; margin-left:76%; margin-top: 27%;}
+    100%{background-image: url(texturevenus.jpg); border-width: 0px; z-index: 1;color:rgb(200, 200, 200);}
+}
+@keyframes onimgvenu
+{
+    0%{height:0px;width:0px; display:inline;z-index:20;padding:0.5%}
+    76%{height:0px;width:0px}
+    100%{width:240px; height: auto;display: inline;z-index:20;padding:0.5%}
+}
+@keyframes outimgvenu
+{
+    0%{width:240px; height: auto;display: inline;z-index:20;padding:0.5%}
+    24%{height:0px;width:0px}
+    100%{height:0px;width:0px; display:inline;z-index:20;padding:0.5%}
+}
+@keyframes onmercure
+{
+    0%{background-image: url(texturemercure.jpg); border-width: 0px; z-index: 1;color:rgb(200, 200, 200);}
+    10%{background-image: url(fondtxtmerc.jpg); border-width: 2px; margin-left:85%; margin-top: 27.5%;}
+    11%{height:25px; width:25px; border-radius:50%;margin-left:85%; margin-top:27.5%;}
+    75%{height:500px;width:1000px;border-radius:2%; margin-left:35%;margin-top:9%; z-index:10;background-image: url(fondtxtmerc.jpg); border-width: 2px;font-size:0px;}
+    76%{height:500px;width:1000px;border-radius:2%; margin-left:35%;margin-top:9%; z-index:10;background-image: url(fondtxtmerc.jpg); border-width: 2px;font-size:20px;color:rgb(200, 200, 200);}
+    100%{height:500px;width:1000px;border-radius:2%; margin-left:35%;margin-top:9%; z-index:10;background-image: url(fondtxtmerc.jpg); border-width: 2px;font-size:20px;color:black;}
+}
+@keyframes outmercure
+{
+    0%{height:500px;width:1000px;border-radius:2%; margin-left:35%;margin-top:9%; z-index:10;background-image: url(fondtxtmerc.jpg); border-width: 2px;font-size:20px;color:black;}
+    24%{height:500px;width:1000px;border-radius:2%; margin-left:35%;margin-top:9%; z-index:10;background-image: url(fondtxtmerc.jpg); border-width: 2px;font-size:20px; color:rgb(200, 200, 200)}
+    25%{height:500px;width:1000px;border-radius:2%; margin-left:35%;margin-top:9%; z-index:10;background-image: url(fondtxtmerc.jpg); border-width: 2px;font-size:0px;}
+    89%{height:25px; width:25px; border-radius:50%;}
+    90%{background-image: url(fondtxtmerc.jpg); border-width: 2px; margin-left:85%; margin-top: 27.5%;}
+    100%{background-image: url(texturemercure.jpg); border-width: 0px; z-index: 1;color:rgb(200, 200, 200);}
+}
+@keyframes onimgmerc
+{
+    0%{height:0px;width:0px; display:inline;z-index:20;padding:0.5%}
+    76%{height:0px;width:0px}
+    100%{width:200px; height: auto;display: inline;z-index:20;padding:0.5%}
+}
+@keyframes outimgmerc
+{
+    0%{width:200px; height: auto;display: inline;z-index:20;padding:0.5%}
+    24%{height:0px;width:0px}
+    100%{height:0px;width:0px; display:inline;z-index:20;padding:0.5%}
+}
+@keyframes onsoleil
+{
+    0%{background-image: url(texturesoleil.jpg); border-width: 0px; z-index: 1;color:rgb(200, 200, 200);}
+    10%{background-image: url(fondtxtsole.jpg); border-width: 2px; margin-left:90%; margin-top: -5%;}
+    11%{height:1204px; width:1204px; border-radius:50%;margin-left:90%; margin-top:-5%;}
+    75%{height:88%;width:40%;border-radius:2%; margin-left:59.75%;margin-top:5.25%; z-index:10;background-image: url(fondtxtsole.jpg); border-width: 2px;font-size:0px;}
+    76%{height:88%;width:40%;border-radius:2%; margin-left:59.75%;margin-top:5.25%; z-index:10;background-image: url(fondtxtsole.jpg); border-width: 2px;font-size:20px;color:rgb(200, 200, 200);}
+    100%{height:88%;width:40%;border-radius:2%; margin-left:59.75%;margin-top:5.25%; z-index:10;background-image: url(fondtxtsole.jpg); border-width: 2px;font-size:20px;color:black;}
+}
+@keyframes outsoleil
+{
+    0%{height:88%;width:40%;border-radius:2%; margin-left:59.75%;margin-top:5.25%; z-index:10;background-image: url(fondtxtsole.jpg); border-width: 2px;font-size:20px;color:black;}
+    24%{height:88%;width:40%;border-radius:2%; margin-left:59.75%;margin-top:5.25%; z-index:10;background-image: url(fondtxtsole.jpg); border-width: 2px;font-size:20px; color:rgb(200, 200, 200)}
+    25%{height:88%;width:40%;border-radius:2%; margin-left:59.75%;margin-top:5.25%; z-index:10;background-image: url(fondtxtsole.jpg); border-width: 2px;font-size:0px;}
+    89%{height:1204px; width:1204px; border-radius:50%;}
+    90%{background-image: url(fondtxtsole.jpg); border-width: 2px; margin-left:90%; margin-top: -5%;}
+    100%{background-image: url(texturesoleil.jpg); border-width: 0px; z-index: 1;color:rgb(200, 200, 200);}
+}
+@keyframes onimgsole
+{
+    0%{height:0px;width:0px; display:inline;z-index:20;padding:0.5%}
+    76%{height:0px;width:0px}
+    100%{width:200px; height: auto;display: inline;z-index:20;padding:0.5%}
+}
+@keyframes outimgsole
+{
+    0%{width:200px; height: auto;display: inline;z-index:20;padding:0.5%}
+    24%{height:0px;width:0px}
+    100%{height:0px;width:0px; display:inline;z-index:20;padding:0.5%}
+}
+@media (max-width: 1600px)
+{
+    @keyframes onterre
+{
+    0%{background-image: url(textureterre.jpg); border-width: 0px; z-index: 1;color:rgb(200, 200, 200);}
+    10%{background-image: url(fondtxtterr.jpg); border-width: 2px; margin-left:67%; margin-top: 27%;}
+    11%{height:33px; width:33px; border-radius:50%;margin-left:67%; margin-top:27%}
+    75%{height:500px;width:1000px;border-radius:2%; margin-left:22%;margin-top:9%; z-index:10;background-image: url(fondtxtterr.jpg); border-width: 2px;font-size:0px;}
+    76%{height:500px;width:1000px;border-radius:2%; margin-left:22%;margin-top:9%; z-index:10;background-image: url(fondtxtterr.jpg); border-width: 2px;font-size:20px;color:rgb(200, 200, 200);}
+    100%{height:500px;width:1000px;border-radius:2%; margin-left:22%;margin-top:9%; z-index:10;background-image: url(fondtxtterr.jpg); border-width: 2px;font-size:20px;color:black;}
+}
+@keyframes outterre
+{
+    0%{height:500px;width:1000px;border-radius:2%; margin-left:22%;margin-top:9%; z-index:10;background-image: url(fondtxtterr.jpg); border-width: 2px;font-size:20px;color:black;}
+    24%{height:500px;width:1000px;border-radius:2%; margin-left:22%;margin-top:9%; z-index:10;background-image: url(fondtxtterr.jpg); border-width: 2px;font-size:20px; color:rgb(200, 200, 200)}
+    25%{height:500px;width:1000px;border-radius:2%; margin-left:22%;margin-top:9%; z-index:10;background-image: url(fondtxtterr.jpg); border-width: 2px;font-size:0px;}
+    89%{height:33px; width:33px; border-radius:50%;}
+    90%{background-image: url(fondtxtterr.jpg); border-width: 2px; margin-left:67%; margin-top: 27%;}
+    100%{background-image: url(textureterre.jpg); border-width: 0px; z-index: 1;color:rgb(200, 200, 200);}
+}
+@keyframes onvenus
+{
+    0%{background-image: url(texturevenus.jpg); border-width: 0px; z-index: 1;color:rgb(200, 200, 200);}
+    10%{background-image: url(fondtxtvenu.jpg); border-width: 2px; margin-left:76%; margin-top: 27%;}
+    11%{height:33px; width:33px; border-radius:50%;margin-left:76%; margin-top:27%;}
+    75%{height:500px;width:1000px;border-radius:2%; margin-left:22%;margin-top:9%; z-index:10;background-image: url(fondtxtvenu.jpg); border-width: 2px;font-size:0px;}
+    76%{height:500px;width:1000px;border-radius:2%; margin-left:22%;margin-top:9%; z-index:10;background-image: url(fondtxtvenu.jpg); border-width: 2px;font-size:20px;color:rgb(200, 200, 200);}
+    100%{height:500px;width:1000px;border-radius:2%; margin-left:22%;margin-top:9%; z-index:10;background-image: url(fondtxtvenu.jpg); border-width: 2px;font-size:20px;color:black;}
+}
+@keyframes outvenus
+{
+    0%{height:500px;width:1000px;border-radius:2%; margin-left:22%;margin-top:9%; z-index:10;background-image: url(fondtxtvenu.jpg); border-width: 2px;font-size:20px;color:black;}
+    24%{height:500px;width:1000px;border-radius:2%; margin-left:22%;margin-top:9%; z-index:10;background-image: url(fondtxtvenu.jpg); border-width: 2px;font-size:20px; color:rgb(200, 200, 200)}
+    25%{height:500px;width:1000px;border-radius:2%; margin-left:22%;margin-top:9%; z-index:10;background-image: url(fondtxtvenu.jpg); border-width: 2px;font-size:0px;}
+    89%{height:33px; width:33px; border-radius:50%;}
+    90%{background-image: url(fondtxtvenu.jpg); border-width: 2px; margin-left:76%; margin-top: 27%;}
+    100%{background-image: url(texturevenus.jpg); border-width: 0px; z-index: 1;color:rgb(200, 200, 200);}
+}
+@keyframes onmercure
+{
+    0%{background-image: url(texturemercure.jpg); border-width: 0px; z-index: 1;color:rgb(200, 200, 200);}
+    10%{background-image: url(fondtxtmerc.jpg); border-width: 2px; margin-left:85%; margin-top: 27.5%;}
+    11%{height:17px; width:17px; border-radius:50%;margin-left:85%; margin-top:27.5%;}
+    75%{height:500px;width:1000px;border-radius:2%; margin-left:22%;margin-top:9%; z-index:10;background-image: url(fondtxtmerc.jpg); border-width: 2px;font-size:0px;}
+    76%{height:500px;width:1000px;border-radius:2%; margin-left:22%;margin-top:9%; z-index:10;background-image: url(fondtxtmerc.jpg); border-width: 2px;font-size:20px;color:rgb(200, 200, 200);}
+    100%{height:500px;width:1000px;border-radius:2%; margin-left:22%;margin-top:9%; z-index:10;background-image: url(fondtxtmerc.jpg); border-width: 2px;font-size:20px;color:black;}
+}
+@keyframes outmercure
+{
+    0%{height:500px;width:1000px;border-radius:2%; margin-left:22%;margin-top:9%; z-index:10;background-image: url(fondtxtmerc.jpg); border-width: 2px;font-size:20px;color:black;}
+    24%{height:500px;width:1000px;border-radius:2%; margin-left:22%;margin-top:9%; z-index:10;background-image: url(fondtxtmerc.jpg); border-width: 2px;font-size:20px; color:rgb(200, 200, 200)}
+    25%{height:500px;width:1000px;border-radius:2%; margin-left:22%;margin-top:9%; z-index:10;background-image: url(fondtxtmerc.jpg); border-width: 2px;font-size:0px;}
+    89%{height:17px; width:17px; border-radius:50%;}
+    90%{background-image: url(fondtxtmerc.jpg); border-width: 2px; margin-left:85%; margin-top: 27.5%;}
+    100%{background-image: url(texturemercure.jpg); border-width: 0px; z-index: 1;color:rgb(200, 200, 200);}
+}
+.neptune
+{
+    height: 50px;
+    width: 50px;
+    border-style: solid;
+    border-width: 0px;
+    border-color: rgb(43, 57, 255);
+    border-radius: 50%;
+    background-image: url(textureneptune.png);
+    background-size:cover ;
+    margin-top:25%;
+    margin-left:0.5%;
+    position: absolute;
+}
+.uranus
+{
+    height: 52px;
+    width: 52px;
+    border-style: solid;
+    border-width: 0px;
+    border-color: rgb(34, 255, 255);
+    border-radius: 50%;
+    background-image: url(textureuranus.jpg);
+    background-size:cover;
+    margin-top:25%;
+    margin-left:9%;
+    position:absolute;
+}
+.saturne
+{
+    height: 110px;
+    width: 275px;
+    border-style: solid;
+    border-width: 0px;
+    border-color: rgb(255, 159, 34);
+    background-image:url(texturesaturne.png);
+    background-size: cover;
+    margin-top:23%;
+    margin-left:18%;
+    position:absolute;
+    z-index:3;
+}
+.jupiter
+{
+    height: 130px;
+    width: 130px;
+    border-style: solid;
+    border-width: 0px;
+    border-color: rgb(255, 197, 120);
+    border-radius: 50%;
+    background-image: url(textureJupiter.jpg);
+    background-size: cover;
+    margin-top:22.5%;
+    margin-left:42%;
+    position:absolute;
+    z-index:3;
+}
+.mars
+{
+    height: 17px;
+    width: 17px;
+    border-style: solid;
+    border-width: 0px;
+    border-color: rgb(184, 104, 0);
+    border-radius: 50%;
+    background-image: url(texturemars.jpg);
+    background-size: cover;
+    margin-top:27.5%;
+    margin-left:58%;
+    position:absolute;
+    z-index:3;
+}
+.terre
+{
+    height: 33px;
+    width: 33px;
+    border-style: solid;
+    border-width: 0px;
+    border-color: rgb(0, 81, 233);
+    border-radius: 50%;
+    background-image: url(textureterre.jpg);
+    background-size: cover;
+    margin-top:27%;
+    margin-left:67%;
+    position:absolute;
+    z-index:3;
+}
+.venus
+{
+    height: 33px;
+    width: 33px;
+    border-style: solid;
+    border-width: 0px;
+    border-color: rgb(136, 136, 136);
+    border-radius: 50%;
+    background-image: url(textureVenus.jpg);
+    background-size: cover;
+    margin-top:27%;
+    margin-left:76%;
+    position:absolute;
+    z-index:3;
+}
+.mercure
+{
+    height: 17px;
+    width: 17px;
+    border-style: solid;
+    border-width: 0px;
+    border-color: rgb(197, 197, 197);
+    border-radius: 50%;
+    background-image: url(texturemercure.jpg);
+    background-size: cover;
+    margin-top:27.5%;
+    margin-left:85%;
+    position:absolute;
+    z-index:3;
+}
+.soleil
+{
+    height: 1004px;
+    width: 1004px;
+    border-style: solid;
+    border-width: 0px;
+    border-color: rgb(255, 166, 0);
+    border-radius: 50%;
+    background-image: url(texturesoleil.jpg);
+    background-size: cover;
+    margin-top:-5%;
+    margin-left:90%;
+    position:absolute;
+    z-index:0;
+}
+@keyframes onmars
+{
+    0%{background-image: url(texturemars.jpg); border-width: 0px; z-index: 1;color:rgb(200, 200, 200);}
+    10%{background-image: url(fondtxtmars.jpg); border-width: 2px; margin-left:58%; margin-top: 27.5%;}
+    11%{height:17px; width:17px; border-radius:50%;margin-left:58%}
+    75%{height:500px;width:1000px;border-radius:2%; margin-left:13%;margin-top:9%; z-index:10;background-image: url(fondtxtmars.jpg); border-width: 2px;font-size:0px;}
+    76%{height:500px;width:1000px;border-radius:2%; margin-left:13%;margin-top:9%; z-index:10;background-image: url(fondtxtmars.jpg); border-width: 2px;font-size:20px;color:rgb(200, 200, 200);}
+    100%{height:500px;width:1000px;border-radius:2%; margin-left:13%;margin-top:9%; z-index:10;background-image: url(fondtxtmars.jpg); border-width: 2px;font-size:20px;color:black;}
+}
+@keyframes outmars
+{
+    0%{height:500px;width:1000px;border-radius:2%; margin-left:13%;margin-top:9%; z-index:10;background-image: url(fondtxtmars.jpg); border-width: 2px;font-size:20px;color:black;}
+    24%{height:500px;width:1000px;border-radius:2%; margin-left:13%;margin-top:9%; z-index:10;background-image: url(fondtxtmars.jpg); border-width: 2px;font-size:20px; color:rgb(200, 200, 200)}
+    25%{height:500px;width:1000px;border-radius:2%; margin-left:13%;margin-top:9%; z-index:10;background-image: url(fondtxtmars.jpg); border-width: 2px;font-size:0px;}
+    89%{height:17px; width:17px; border-radius:50%;}
+    90%{background-image: url(fondtxtmars.jpg); border-width: 2px; margin-left:58%; margin-top: 27.5%;}
+    100%{background-image: url(texturemars.jpg); border-width: 0px; z-index: 1;color:rgb(200, 200, 200);}
+}
+@keyframes onjupiter
+{
+    0%{background-image: url(textureJupiter.jpg); border-width: 0px; z-index: 1;color:rgb(200, 200, 200);}
+    10%{background-image: url(fondtxtjupi.jpg); border-width: 2px; margin-left:42%; margin-top: 22.5%;}
+    11%{height:130px; width:130px; border-radius:50%;}
+    75%{height:500px;width:1000px;border-radius:2%; margin-left:10%;margin-top:9%; z-index:10;background-image: url(fondtxtjupi.jpg); border-width: 2px;font-size:0px;}
+    76%{height:500px;width:1000px;border-radius:2%; margin-left:10%;margin-top:9%; z-index:10;background-image: url(fondtxtjupi.jpg); border-width: 2px;font-size:20px;color:rgb(200, 200, 200);}
+    100%{height:500px;width:1000px;border-radius:2%; margin-left:10%;margin-top:9%; z-index:10;background-image: url(fondtxtjupi.jpg); border-width: 2px;font-size:20px;color:black;}
+}
+@keyframes outjupiter
+{
+    0%{height:500px;width:1000px;border-radius:2%; margin-left:10%;margin-top:9%; z-index:10;background-image: url(fondtxtjupi.jpg); border-width: 2px;font-size:20px;color:black;}
+    24%{height:500px;width:1000px;border-radius:2%; margin-left:10%;margin-top:9%; z-index:10;background-image: url(fondtxtjupi.jpg); border-width: 2px;font-size:20px; color:rgb(200, 200, 200)}
+    25%{height:500px;width:1000px;border-radius:2%; margin-left:10%;margin-top:9%; z-index:10;background-image: url(fondtxtjupi.jpg); border-width: 2px;font-size:0px;}
+    89%{height:130px; width:130px; border-radius:50%;}
+    90%{background-image: url(fondtxtjupi.jpg); border-width: 2px; margin-left:42%; margin-top: 22.5%;}
+    100%{background-image: url(textureJupiter.jpg); border-width: 0px; z-index: 1;color:rgb(200, 200, 200);}
+}
+@keyframes onsaturne
+{
+    0%{background-image: url(texturesaturne.png); border-width: 0px; z-index: 1;color:rgb(200, 200, 200);}
+    10%{background-image: url(fondtxtsatu.jpg); border-width: 1px; margin-left:18%; margin-top: 23%;}
+    11%{height:110px; width:275px; border-radius:2%;}
+    75%{height:450px;width:1000px;border-radius:2%; margin-left:5%;margin-top:12%; z-index:10;background-image: url(fondtxtsatu.jpg); border-width: 2px;font-size:0px;}
+    76%{height:450px;width:1000px;border-radius:2%; margin-left:5%;margin-top:12%; z-index:10;background-image: url(fondtxtsatu.jpg); border-width: 2px;font-size:20px;color:rgb(200, 200, 200);}
+    100%{height:450px;width:1000px;border-radius:2%; margin-left:5%;margin-top:12%; z-index:10;background-image: url(fondtxtsatu.jpg); border-width: 2px;font-size:20px;color:black;}
+}
+@keyframes outsaturne
+{
+    0%{height:450px;width:1000px;border-radius:2%; margin-left:5%;margin-top:12%; z-index:10;background-image: url(fondtxtsatu.jpg); border-width: 2px;font-size:20px;color:black;}
+    24%{height:450px;width:1000px;border-radius:2%; margin-left:5%;margin-top:12%; z-index:10;background-image: url(fondtxtsatu.jpg); border-width: 2px;font-size:20px; color:rgb(200, 200, 200)}
+    25%{height:450px;width:1000px;border-radius:2%; margin-left:5%;margin-top:12%; z-index:10;background-image: url(fondtxtsatu.jpg); border-width: 2px;font-size:0px;}
+    89%{height:110px; width:275px; border-radius:2%;}
+    90%{background-image: url(fondtxtsatu.jpg); border-width: 1px; margin-left:18%; margin-top: 23%;}
+    100%{background-image: url(texturesaturne.png); border-width: 0px; z-index: 1;color:rgb(200, 200, 200);}
+}
+@keyframes onuranus
+{
+    0%{background-image: url(textureuranus.jpg); border-width: 0px; z-index: 1;color:rgb(200, 200, 200);}
+    10%{background-image: url(fondtxturan.jpg); border-width: 2px; margin-left:9%; margin-top: 25%;}
+    11%{height:52px; width:52px; border-radius:50%;}
+    75%{height:450px;width:1000px;border-radius:2%; margin-left:5%;margin-top:12%; z-index:10;background-image: url(fondtxturan.jpg); border-width: 2px;font-size:0px;}
+    76%{height:450px;width:1000px;border-radius:2%; margin-left:5%;margin-top:12%; z-index:10;background-image: url(fondtxturan.jpg); border-width: 2px;font-size:20px;color:rgb(200, 200, 200);}
+    100%{height:450px;width:1000px;border-radius:2%; margin-left:5%;margin-top:12%; z-index:10;background-image: url(fondtxturan.jpg); border-width: 2px;font-size:20px;color:black;}
+}
+@keyframes outuranus
+{
+    0%{height:450px;width:1000px;border-radius:2%; margin-left:5%;margin-top:12%; z-index:10;background-image: url(fondtxturan.jpg); border-width: 2px;font-size:20px;color:black;}
+    24%{height:450px;width:1000px;border-radius:2%; margin-left:5%;margin-top:12%; z-index:10;background-image: url(fondtxturan.jpg); border-width: 2px;font-size:20px; color:rgb(200, 200, 200)}
+    25%{height:450px;width:1000px;border-radius:2%; margin-left:5%;margin-top:12%; z-index:10;background-image: url(fondtxturan.jpg); border-width: 2px;font-size:0px;}
+    89%{height:52px; width:52px; border-radius:50%;}
+    90%{background-image: url(fondtxturan.jpg); border-width: 2px; margin-left:9%; margin-top: 25%;}
+    100%{background-image: url(textureuranus.jpg); border-width: 0px; z-index: 1;color:rgb(200, 200, 200);}
+}
+@keyframes onneptune
+{
+    0%{background-image: url(textureneptune.png); border-width: 0px; z-index: 1;color:rgb(200, 200, 200);}
+    10%{background-image: url(fondtxtnept.jpg); border-width: 2px; margin-left:0.5%; margin-top: 25%;}
+    11%{height:50px; width:50px; border-radius:50%;}
+    75%{height:450px;width:1000px;border-radius:2%; margin-left:0.5%;margin-top:12%; z-index:10;background-image: url(fondtxtnept.jpg); border-width: 2px;font-size:0px;}
+    76%{height:450px;width:1000px;border-radius:2%; margin-left:0.5%;margin-top:12%; z-index:10;background-image: url(fondtxtnept.jpg); border-width: 2px;font-size:20px;color:rgb(200, 200, 200);}
+    100%{height:450px;width:1000px;border-radius:2%; margin-left:0.5%;margin-top:12%; z-index:10;background-image: url(fondtxtnept.jpg); border-width: 2px;font-size:20px;color:black;}
+}
+@keyframes outneptune
+{
+    0%{height:450px;width:1000px;border-radius:2%; margin-left:0.5%;margin-top:12%; z-index:10;background-image: url(fondtxtnept.jpg); border-width: 2px;font-size:20px;color:black;}
+    24%{height:450px;width:1000px;border-radius:2%; margin-left:0.5%;margin-top:12%; z-index:10;background-image: url(fondtxtnept.jpg); border-width: 2px;font-size:20px; color:rgb(200, 200, 200)}
+    25%{height:450px;width:1000px;border-radius:2%; margin-left:0.5%;margin-top:12%; z-index:10;background-image: url(fondtxtnept.jpg); border-width: 2px;font-size:0px;}
+    89%{height:50px; width:50px; border-radius:50%;}
+    90%{background-image: url(fondtxtnept.jpg); border-width: 2px; margin-left:0.5%; margin-top: 25%;}
+    100%{background-image: url(textureneptune.png); border-width: 0px; z-index: 1;color:rgb(200, 200, 200);}
+}
+@keyframes onsoleil
+{
+    0%{background-image: url(texturesoleil.jpg); border-width: 0px; z-index: 1;color:rgb(200, 200, 200);}
+    10%{background-image: url(fondtxtsole.jpg); border-width: 2px; margin-left:90%; margin-top: -5%;}
+    11%{height:1004px; width:1004px; border-radius:50%;margin-left:90%; margin-top:-5%;}
+    75%{height:88%;width:35%;border-radius:2%; margin-left:64.75%;margin-top:5.25%; z-index:10;background-image: url(fondtxtsole.jpg); border-width: 2px;font-size:0px;}
+    76%{height:88%;width:35%;border-radius:2%; margin-left:64.75%;margin-top:5.25%; z-index:10;background-image: url(fondtxtsole.jpg); border-width: 2px;font-size:20px;color:rgb(200, 200, 200);}
+    100%{height:88%;width:35%;border-radius:2%; margin-left:64.75%;margin-top:5.25%; z-index:10;background-image: url(fondtxtsole.jpg); border-width: 2px;font-size:20px;color:black;}
+}
+@keyframes outsoleil
+{
+    0%{height:88%;width:35%;border-radius:2%; margin-left:64.75%;margin-top:5.25%; z-index:10;background-image: url(fondtxtsole.jpg); border-width: 2px;font-size:20px;color:black;}
+    24%{height:88%;width:35%;border-radius:2%; margin-left:64.75%;margin-top:5.25%; z-index:10;background-image: url(fondtxtsole.jpg); border-width: 2px;font-size:20px; color:rgb(200, 200, 200)}
+    25%{height:88%;width:35%;border-radius:2%; margin-left:64.75%;margin-top:5.25%; z-index:10;background-image: url(fondtxtsole.jpg); border-width: 2px;font-size:0px;}
+    89%{height:1004px; width:1004px; border-radius:50%;}
+    90%{background-image: url(fondtxtsole.jpg); border-width: 2px; margin-left:90%; margin-top: -5%;}
+    100%{background-image: url(texturesoleil.jpg); border-width: 0px; z-index: 1;color:rgb(200, 200, 200);}
+}
+}
+@media (max-width: 1300px)
+{
+    @keyframes onterre
+{
+    0%{background-image: url(textureterre.jpg); border-width: 0px; z-index: 1;color:rgb(200, 200, 200);}
+    10%{background-image: url(fondtxtterr.jpg); border-width: 2px; margin-left:67%; margin-top: 27%;}
+    11%{height:33px; width:33px; border-radius:50%;margin-left:67%; margin-top:27%}
+    75%{height:500px;width:1000px;border-radius:2%; margin-left:13%;margin-top:9%; z-index:10;background-image: url(fondtxtterr.jpg); border-width: 2px;font-size:0px;}
+    76%{height:500px;width:1000px;border-radius:2%; margin-left:13%;margin-top:9%; z-index:10;background-image: url(fondtxtterr.jpg); border-width: 2px;font-size:20px;color:rgb(200, 200, 200);}
+    100%{height:500px;width:1000px;border-radius:2%; margin-left:13%;margin-top:9%; z-index:10;background-image: url(fondtxtterr.jpg); border-width: 2px;font-size:20px;color:black;}
+}
+@keyframes outterre
+{
+    0%{height:500px;width:1000px;border-radius:2%; margin-left:13%;margin-top:9%; z-index:10;background-image: url(fondtxtterr.jpg); border-width: 2px;font-size:20px;color:black;}
+    24%{height:500px;width:1000px;border-radius:2%; margin-left:13%;margin-top:9%; z-index:10;background-image: url(fondtxtterr.jpg); border-width: 2px;font-size:20px; color:rgb(200, 200, 200)}
+    25%{height:500px;width:1000px;border-radius:2%; margin-left:13%;margin-top:9%; z-index:10;background-image: url(fondtxtterr.jpg); border-width: 2px;font-size:0px;}
+    89%{height:33px; width:33px; border-radius:50%;}
+    90%{background-image: url(fondtxtterr.jpg); border-width: 2px; margin-left:67%; margin-top: 27%;}
+    100%{background-image: url(textureterre.jpg); border-width: 0px; z-index: 1;color:rgb(200, 200, 200);}
+}
+@keyframes onvenus
+{
+    0%{background-image: url(texturevenus.jpg); border-width: 0px; z-index: 1;color:rgb(200, 200, 200);}
+    10%{background-image: url(fondtxtvenu.jpg); border-width: 2px; margin-left:76%; margin-top: 27%;}
+    11%{height:33px; width:33px; border-radius:50%;margin-left:76%; margin-top:27%;}
+    75%{height:500px;width:1000px;border-radius:2%; margin-left:13%;margin-top:9%; z-index:10;background-image: url(fondtxtvenu.jpg); border-width: 2px;font-size:0px;}
+    76%{height:500px;width:1000px;border-radius:2%; margin-left:13%;margin-top:9%; z-index:10;background-image: url(fondtxtvenu.jpg); border-width: 2px;font-size:20px;color:rgb(200, 200, 200);}
+    100%{height:500px;width:1000px;border-radius:2%; margin-left:13%;margin-top:9%; z-index:10;background-image: url(fondtxtvenu.jpg); border-width: 2px;font-size:20px;color:black;}
+}
+@keyframes outvenus
+{
+    0%{height:500px;width:1000px;border-radius:2%; margin-left:13%;margin-top:9%; z-index:10;background-image: url(fondtxtvenu.jpg); border-width: 2px;font-size:20px;color:black;}
+    24%{height:500px;width:1000px;border-radius:2%; margin-left:13%;margin-top:9%; z-index:10;background-image: url(fondtxtvenu.jpg); border-width: 2px;font-size:20px; color:rgb(200, 200, 200)}
+    25%{height:500px;width:1000px;border-radius:2%; margin-left:13%;margin-top:9%; z-index:10;background-image: url(fondtxtvenu.jpg); border-width: 2px;font-size:0px;}
+    89%{height:33px; width:33px; border-radius:50%;}
+    90%{background-image: url(fondtxtvenu.jpg); border-width: 2px; margin-left:76%; margin-top: 27%;}
+    100%{background-image: url(texturevenus.jpg); border-width: 0px; z-index: 1;color:rgb(200, 200, 200);}
+}
+@keyframes onmercure
+{
+    0%{background-image: url(texturemercure.jpg); border-width: 0px; z-index: 1;color:rgb(200, 200, 200);}
+    10%{background-image: url(fondtxtmerc.jpg); border-width: 2px; margin-left:85%; margin-top: 27.5%;}
+    11%{height:17px; width:17px; border-radius:50%;margin-left:85%; margin-top:27.5%;}
+    75%{height:500px;width:1000px;border-radius:2%; margin-left:13%;margin-top:9%; z-index:10;background-image: url(fondtxtmerc.jpg); border-width: 2px;font-size:0px;}
+    76%{height:500px;width:1000px;border-radius:2%; margin-left:13%;margin-top:9%; z-index:10;background-image: url(fondtxtmerc.jpg); border-width: 2px;font-size:20px;color:rgb(200, 200, 200);}
+    100%{height:500px;width:1000px;border-radius:2%; margin-left:13%;margin-top:9%; z-index:10;background-image: url(fondtxtmerc.jpg); border-width: 2px;font-size:20px;color:black;}
+}
+@keyframes outmercure
+{
+    0%{height:500px;width:1000px;border-radius:2%; margin-left:13%;margin-top:9%; z-index:10;background-image: url(fondtxtmerc.jpg); border-width: 2px;font-size:20px;color:black;}
+    24%{height:500px;width:1000px;border-radius:2%; margin-left:13%;margin-top:9%; z-index:10;background-image: url(fondtxtmerc.jpg); border-width: 2px;font-size:20px; color:rgb(200, 200, 200)}
+    25%{height:500px;width:1000px;border-radius:2%; margin-left:13%;margin-top:9%; z-index:10;background-image: url(fondtxtmerc.jpg); border-width: 2px;font-size:0px;}
+    89%{height:17px; width:17px; border-radius:50%;}
+    90%{background-image: url(fondtxtmerc.jpg); border-width: 2px; margin-left:85%; margin-top: 27.5%;}
+    100%{background-image: url(texturemercure.jpg); border-width: 0px; z-index: 1;color:rgb(200, 200, 200);}
+}
+}
+@media (max-height: 800px)
+{
+    @keyframes onimgsole
+{
+    0%{height:0px;width:0px; display:inline;z-index:20;padding:0.5%}
+    76%{height:0px;width:0px}
+    100%{width:80px; height: auto;display: inline;z-index:20;padding:0.5%}
+}
+@keyframes outimgsole
+{
+    0%{width:80px; height: auto;display: inline;z-index:20;padding:0.5%}
+    24%{height:0px;width:0px}
+    100%{height:0px;width:0px; display:inline;z-index:20;padding:0.5%}
+}
+}
+@media (max-height:675px)
+{
+    @keyframes onimgsole
+{
+    0%{height:0px;width:0px; display:inline;z-index:20;padding:0.5%}
+    76%{height:0px;width:0px}
+    100%{width:0px; height: auto;display: inline;z-index:20;padding:0.5%}
+}
+@keyframes outimgsole
+{
+    0%{width:0px; height: auto;display: inline;z-index:20;padding:0.5%}
+    24%{height:0px;width:0px}
+    100%{height:0px;width:0px; display:inline;z-index:20;padding:0.5%}
+}
+}
+@media (max-height: 615px) and (min-width:1175px)
+{
+html
+{
+    background-image: none;
+    background-color:rgb(200, 200, 200);
+    overflow-x :auto;
+    overflow-y: auto;
+}
+.img
+{
+    height:200px;
+    width:auto;
+}
+.page
+{
+    margin-top:9%;
+}
+.neptune
+{
+    position: relative;
+    background-image: none;
+    margin-left:0%;
+    margin-top:0%;
+    height: auto;
+    width: auto;
+    padding:1%;
+}
+.uranus
+{
+    position: relative;
+    background-image: none;
+    margin-left:0%;
+    margin-top:0%;
+    height: auto;
+    width: auto;
+    padding:1%;
+}
+.saturne
+{
+    position: relative;
+    background-image: none;
+    margin-left:0%;
+    margin-top:0%;
+    height: auto;
+    width: auto;
+    padding:1%;
+}
+.jupiter
+{
+    position: relative;
+    background-image: none;
+    margin-left:0%;
+    margin-top:0%;
+    height: auto;
+    width: auto;
+    padding:1%;
+}
+.mars
+{
+    position: relative;
+    background-image: none;
+    margin-left:0%;
+    margin-top:0%;
+    height: auto;
+    width: auto;
+    padding:1%;
+}
+.terre
+{
+    position: relative;
+    background-image: none;
+    margin-left:0%;
+    margin-top:0%;
+    height: auto;
+    width: auto;
+    padding:1%;
+}
+.venus
+{
+    position: relative;
+    background-image: none;
+    margin-left:0%;
+    margin-top:0%;
+    height: auto;
+    width: auto;
+    padding:1%;
+}
+.mercure
+{
+    position: relative;
+    background-image: none;
+    margin-left:0%;
+    margin-top:0%;
+    height: auto;
+    width: auto;
+    padding:1%;
+}
+.soleil
+{
+    position: relative;
+    background-image: none;
+    margin-left:0%;
+    margin-top:0%;
+    height: auto;
+    width: auto;
+    padding:1%;
+}
+article
+{
+    font-size: 20px;
+}
+.neptuneon
+{
+    -webkit-animation-name: none;
+    -webkit-animation-delay:0s ;
+    -webkit-animation-duration: 1.2s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+}
+.neptuneout
+{
+    -webkit-animation-name: none;
+    -webkit-animation-delay:0s ;
+    -webkit-animation-duration: 0.9s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+}
+.imgnepton
+{
+    -webkit-animation-name: none;
+    -webkit-animation-delay:0s ;
+    -webkit-animation-duration: 1.2s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+}
+.imgneptout
+{
+    -webkit-animation-name: none;
+    -webkit-animation-delay:0s ;
+    -webkit-animation-duration: 0.9s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+}
+.uranuson
+{
+    -webkit-animation-name: none;
+    -webkit-animation-delay:0s ;
+    -webkit-animation-duration: 1.2s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+}
+.uranusout
+{
+    -webkit-animation-name: none;
+    -webkit-animation-delay:0s ;
+    -webkit-animation-duration: 0.9s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+}
+.imguranon
+{
+    -webkit-animation-name: none;
+    -webkit-animation-delay:0s ;
+    -webkit-animation-duration: 1.2s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+}
+.imguranout
+{
+    -webkit-animation-name: none;
+    -webkit-animation-delay:0s ;
+    -webkit-animation-duration: 0.9s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+}
+.saturneon
+{
+    -webkit-animation-name: none;
+    -webkit-animation-delay:0s ;
+    -webkit-animation-duration: 1.2s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+}
+.saturneout
+{
+    -webkit-animation-name: none;
+    -webkit-animation-delay:0s ;
+    -webkit-animation-duration: 0.9s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+}
+.imgsatuon
+{
+    -webkit-animation-name: none;
+    -webkit-animation-delay:0s ;
+    -webkit-animation-duration: 1.2s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+}
+.imgsatuout
+{
+    -webkit-animation-name: none;
+    -webkit-animation-delay:0s ;
+    -webkit-animation-duration: 0.9s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+}
+.jupiteron
+{
+    -webkit-animation-name: none;
+    -webkit-animation-delay:0s ;
+    -webkit-animation-duration: 1.2s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+}
+.jupiterout
+{
+    -webkit-animation-name: none;
+    -webkit-animation-delay:0s ;
+    -webkit-animation-duration: 0.9s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+}
+.imgjupion
+{
+    -webkit-animation-name: none;
+    -webkit-animation-delay:0s ;
+    -webkit-animation-duration: 1.2s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+}
+.imgjupiout
+{
+    -webkit-animation-name: none;
+    -webkit-animation-delay:0s ;
+    -webkit-animation-duration: 0.9s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+}
+.marson
+{
+    -webkit-animation-name: none;
+    -webkit-animation-delay:0s ;
+    -webkit-animation-duration: 1.2s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+}
+.marsout
+{
+    -webkit-animation-name: none;
+    -webkit-animation-delay:0s ;
+    -webkit-animation-duration: 0.9s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+}
+.imgmarson
+{
+    -webkit-animation-name: none;
+    -webkit-animation-delay:0s ;
+    -webkit-animation-duration: 1.2s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+}
+.imgmarsout
+{
+    -webkit-animation-name: none;
+    -webkit-animation-delay:0s ;
+    -webkit-animation-duration: 0.9s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+}
+.terreon
+{
+    -webkit-animation-name: none;
+    -webkit-animation-delay:0s ;
+    -webkit-animation-duration: 1.2s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+}
+.terreout
+{
+    -webkit-animation-name: none;
+    -webkit-animation-delay:0s ;
+    -webkit-animation-duration: 0.9s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+}
+.imgterron
+{
+    -webkit-animation-name: none;
+    -webkit-animation-delay:0s ;
+    -webkit-animation-duration: 1.2s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+}
+.imgterrout
+{
+    -webkit-animation-name: none;
+    -webkit-animation-delay:0s ;
+    -webkit-animation-duration: 0.9s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+}
+.venuson
+{
+    -webkit-animation-name: none;
+    -webkit-animation-delay:0s ;
+    -webkit-animation-duration: 1.2s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+}
+.venusout
+{
+    -webkit-animation-name: none;
+    -webkit-animation-delay:0s ;
+    -webkit-animation-duration: 0.9s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+}
+.imgvenuon
+{
+    -webkit-animation-name: none;
+    -webkit-animation-delay:0s ;
+    -webkit-animation-duration: 1.2s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+}
+.imgvenuout
+{
+    -webkit-animation-name: none;
+    -webkit-animation-delay:0s ;
+    -webkit-animation-duration: 0.9s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+}
+.mercureon
+{
+    -webkit-animation-name: none;
+    -webkit-animation-delay:0s ;
+    -webkit-animation-duration: 1.2s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+}
+.mercureout
+{
+    -webkit-animation-name: none;
+    -webkit-animation-delay:0s ;
+    -webkit-animation-duration: 0.9s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+}
+.imgmercon
+{
+    -webkit-animation-name: none;
+    -webkit-animation-delay:0s ;
+    -webkit-animation-duration: 1.2s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+}
+.imgmercout
+{
+    -webkit-animation-name: none;
+    -webkit-animation-delay:0s ;
+    -webkit-animation-duration: 0.9s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+}
+.soleilon
+{
+    -webkit-animation-name: none;
+    -webkit-animation-delay:0s ;
+    -webkit-animation-duration: 1.2s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+}
+.soleilout
+{
+    -webkit-animation-name: none;
+    -webkit-animation-delay:0s ;
+    -webkit-animation-duration: 0.9s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+}
+.imgsoleon
+{
+    -webkit-animation-name: none;
+    -webkit-animation-delay:0s ;
+    -webkit-animation-duration: 1.2s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+}
+.imgsoleout
+{
+    -webkit-animation-name: none;
+    -webkit-animation-delay:0s ;
+    -webkit-animation-duration: 0.9s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+}
+}
+@media (max-width:1175px)
+{
+    header
+{
+    color:white;
+    background-color: black;
+    display: flex;
+    border-bottom-style: double;
+    border-bottom-color: rgb(200, 200, 200);
+    border-bottom-width: 6px;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+    justify-content: center;
+    position:relative;
+    width:100%;
+    height:85px;
+    z-index:3;
+}
+nav
+{
+    background-color: rgb(200, 200, 200);
+    display:flex;
+    justify-content: center;
+    position:absolute;
+    top:85px;
+    width:100%;
+    z-index:2;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius:0%;
+    border-bottom-style:double;
+    border-bottom-color:black;
+    border-bottom-width: 5px;
+}
+h1
+{
+    font-size: 21px;
+}
+.navrentre
+{
+    -webkit-animation-name: none;
+    -webkit-animation-delay: 0s;
+    -webkit-animation-duration: 0.3s;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-iteration-count: 1;
+}
+.navsortie
+{
+    -webkit-animation-name:none;
+    -webkit-animation-delay: 0s;
+    -webkit-animation-duration: 0.3s;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-iteration-count: 1;
+}
+h6
+{
+    font-size:0px;
+}
+.neptune
+{
+    height: 74px;
+    width: 74px;
+    border-style: solid;
+    border-width: 0px;
+    border-color: rgb(43, 57, 255);
+    border-radius: 50%;
+    background-image: url(textureneptune.png);
+    background-size:cover ;
+    margin-top:100px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.uranus
+{
+    height: 76px;
+    width: 76px;
+    border-style: solid;
+    border-width: 0px;
+    border-color: rgb(34, 255, 255);
+    border-radius: 50%;
+    background-image: url(textureuranus.jpg);
+    background-size:cover;
+    margin-top:225px;
+    margin-left: auto;
+    margin-right: auto;
+    position:relative;
+}
+.saturne
+{
+    height: 138px;
+    width: 350px;
+    border-style: solid;
+    border-width: 0px;
+    border-color: rgb(255, 159, 34);
+    background-image:url(texturesaturne.png);
+    background-size: cover;
+    margin-top:225px;
+    margin-left: auto;
+    margin-right: auto;
+    position:relative;
+    z-index:3;
+}
+.jupiter
+{
+    height: 194px;
+    width: 194px;
+    border-style: solid;
+    border-width: 0px;
+    border-color: rgb(255, 197, 120);
+    border-radius: 50%;
+    background-image: url(textureJupiter.jpg);
+    background-size: cover;
+    margin-top:450px;
+    margin-left: auto;
+    margin-right: auto;
+    position:relative;
+    z-index:3;
+}
+.mars
+{
+    height: 25px;
+    width: 25px;
+    border-style: solid;
+    border-width: 0px;
+    border-color: rgb(184, 104, 0);
+    border-radius: 50%;
+    background-image: url(texturemars.jpg);
+    background-size: cover;
+    margin-top:600px;
+    margin-left: auto;
+    margin-right: auto;
+    position:relative;
+    z-index:3;
+}
+.terre
+{
+    height: 50px;
+    width: 50px;
+    border-style: solid;
+    border-width: 0px;
+    border-color: rgb(0, 81, 233);
+    border-radius: 50%;
+    background-image: url(textureterre.jpg);
+    background-size: cover;
+    margin-top:225px;
+    margin-left: auto;
+    margin-right: auto;
+    position:relative;
+    z-index:3;
+}
+.venus
+{
+    height: 50px;
+    width: 50px;
+    border-style: solid;
+    border-width: 0px;
+    border-color: rgb(136, 136, 136);
+    border-radius: 50%;
+    background-image: url(textureVenus.jpg);
+    background-size: cover;
+    margin-top:225px;
+    margin-left: auto;
+    margin-right: auto;
+    position:relative;
+    z-index:3;
+}
+.mercure
+{
+    height: 25px;
+    width: 25px;
+    border-style: solid;
+    border-width: 0px;
+    border-color: rgb(197, 197, 197);
+    border-radius: 50%;
+    background-image: url(texturemercure.jpg);
+    background-size: cover;
+    margin-top:225px;
+    margin-left: auto;
+    margin-right: auto;
+    position:relative;
+    z-index:3;
+}
+.soleil
+{
+    height: 500px;
+    width: 500px;
+    border-style: solid;
+    border-width: 0px;
+    border-color: rgb(255, 166, 0);
+    border-radius: 50%;
+    background-image: url(texturesoleil.jpg);
+    background-size: cover;
+    margin-top:225px;
+    margin-left: auto;
+    margin-right: auto;
+    position:relative;
+    z-index:0;
+}
+html
+{
+    background-image:url(cieletoile2.jpg);
+    background-size: auto;
+    overflow-x :hidden ;
+    overflow-y: auto;
+}
+@keyframes onneptune
+{
+    0%{background-image: url(textureneptune.png); border-width: 0px; z-index: 1;color:rgb(200, 200, 200);}
+    10%{background-image: url(fondtxtnept.jpg); border-width: 2px; margin-left:auto; margin-top: 100px;}
+    11%{height:74px; width:74px; border-radius:50%;}
+    75%{width:80%;height:174px;border-radius:2%; margin-left:auto;margin-top:100px; z-index:10;background-image: url(fondtxtnept.jpg); border-width: 2px;font-size:0px;}
+    76%{width:80%;height:auto;border-radius:2%; margin-left:10%;margin-top:100px; z-index:10;background-image: url(fondtxtnept.jpg); border-width: 2px;font-size:18px;color:rgb(200, 200, 200);}
+    100%{width:80%;height:auto;border-radius:2%; margin-left:10%;margin-top:100px; z-index:10;background-image: url(fondtxtnept.jpg); border-width: 2px;font-size:18px;color:black;}
+}
+@keyframes outneptune
+{
+    0%{height:auto;width:80%;border-radius:2%; margin-left:10%;margin-top:100px; z-index:10;background-image: url(fondtxtnept.jpg); border-width: 2px;font-size:18px;color:black;}
+    24%{height:auto;width:80%;border-radius:2%; margin-left:10%;margin-top:100px; z-index:10;background-image: url(fondtxtnept.jpg); border-width: 2px;font-size:18px; color:rgb(200, 200, 200)}
+    25%{height:174px;width:80%;border-radius:2%; margin-left:auto;margin-top:100px; z-index:10;background-image: url(fondtxtnept.jpg); border-width: 2px;font-size:0px;}
+    89%{height:74px; width:74px; border-radius:50%;}
+    90%{background-image: url(fondtxtnept.jpg); border-width: 2px; margin-left:auto; margin-top: 100px;}
+    100%{background-image: url(textureneptune.png); border-width: 0px; z-index: 1;color:rgb(200, 200, 200);}
+}
+@keyframes onuranus
+{
+    0%{background-image: url(textureuranus.jpg); border-width: 0px; z-index: 1;color:rgb(200, 200, 200);}
+    10%{background-image: url(fondtxturan.jpg); border-width: 2px; margin-left:auto; margin-top: 225px;}
+    11%{height:76px; width:76px; border-radius:50%;}
+    75%{height:175px;width:80%;border-radius:2%; margin-left:auto;margin-top:225px; z-index:10;background-image: url(fondtxturan.jpg); border-width: 2px;font-size:0px;}
+    76%{height:auto;width:80%;border-radius:2%; margin-left:auto;margin-top:225px; z-index:10;background-image: url(fondtxturan.jpg); border-width: 2px;font-size:18px;color:rgb(200, 200, 200);}
+    100%{height:auto;width:80%;border-radius:2%; margin-left:auto;margin-top:225px; z-index:10;background-image: url(fondtxturan.jpg); border-width: 2px;font-size:18px;color:black;}
+}
+@keyframes outuranus
+{
+    0%{height:auto;width:80%;border-radius:2%; margin-left:auto;margin-top:225px; z-index:10;background-image: url(fondtxturan.jpg); border-width: 2px;font-size:18px;color:black;}
+    24%{height:auto;width:80%;border-radius:2%; margin-left:auto;margin-top:225px; z-index:10;background-image: url(fondtxturan.jpg); border-width: 2px;font-size:18px; color:rgb(200, 200, 200)}
+    25%{height:175px;width:80%;border-radius:2%; margin-left:auto;margin-top:225px; z-index:10;background-image: url(fondtxturan.jpg); border-width: 2px;font-size:0px;}
+    89%{height:76px; width:76px; border-radius:50%;}
+    90%{background-image: url(fondtxturan.jpg); border-width: 2px; margin-left:auto; margin-top: 225px;}
+    100%{background-image: url(textureuranus.jpg); border-width: 0px; z-index: 1;color:rgb(200, 200, 200);}
+}
+
+@keyframes onsaturne
+{
+    0%{background-image: url(texturesaturne.png); border-width: 0px; z-index: 1;color:rgb(200, 200, 200);}
+    10%{background-image: url(fondtxtsatu.jpg); border-width: 1px; margin-left:auto; margin-top: 225px;}
+    11%{height:152px; width:380px; border-radius:2%;}
+    75%{height:175px;width:80%;border-radius:2%; margin-left:auto;margin-top:225px; z-index:10;background-image: url(fondtxtsatu.jpg); border-width: 2px;font-size:0px;}
+    76%{height:auto;width:80%;border-radius:2%; margin-left:auto;margin-top:225px; z-index:10;background-image: url(fondtxtsatu.jpg); border-width: 2px;font-size:18px;color:rgb(200, 200, 200);}
+    100%{height:auto;width:80%;border-radius:2%; margin-left:auto;margin-top:225px; z-index:10;background-image: url(fondtxtsatu.jpg); border-width: 2px;font-size:18px;color:black;}
+}
+@keyframes outsaturne
+{
+    0%{height:auto;width:80%;border-radius:2%; margin-left:auto;margin-top:225px; z-index:10;background-image: url(fondtxtsatu.jpg); border-width: 2px;font-size:18px;color:black;}
+    24%{height:auto;width:80%;border-radius:2%; margin-left:auto;margin-top:225px; z-index:10;background-image: url(fondtxtsatu.jpg); border-width: 2px;font-size:18px; color:rgb(200, 200, 200)}
+    25%{height:175px;width:80%;border-radius:2%; margin-left:auto;margin-top:225px; z-index:10;background-image: url(fondtxtsatu.jpg); border-width: 2px;font-size:0px;}
+    89%{height:152px; width:380px; border-radius:2%;}
+    90%{background-image: url(fondtxtsatu.jpg); border-width: 1px; margin-left:auto; margin-top: 225px;}
+    100%{background-image: url(texturesaturne.png); border-width: 0px; z-index: 1;color:rgb(200, 200, 200);}
+}
+@keyframes onjupiter
+{
+    0%{background-image: url(textureJupiter.jpg); border-width: 0px; z-index: 1;color:rgb(200, 200, 200);}
+    10%{background-image: url(fondtxtjupi.jpg); border-width: 2px; margin-left:auto; margin-top: 450px;}
+    11%{height:194px; width:194px; border-radius:50%;}
+    75%{height:175px;width:80%;border-radius:2%; margin-left:auto;margin-top:450px; z-index:10;background-image: url(fondtxtjupi.jpg); border-width: 2px;font-size:0px;}
+    76%{height:auto;width:80%;border-radius:2%; margin-left:auto;margin-top:450px; z-index:10;background-image: url(fondtxtjupi.jpg); border-width: 2px;font-size:18px;color:rgb(200, 200, 200);}
+    100%{height:auto;width:80%;border-radius:2%; margin-left:auto;margin-top:450px; z-index:10;background-image: url(fondtxtjupi.jpg); border-width: 2px;font-size:18px;color:black;}
+}
+@keyframes outjupiter
+{
+    0%{height:auto;width:80%;border-radius:2%; margin-left:auto;margin-top:450px; z-index:10;background-image: url(fondtxtjupi.jpg); border-width: 2px;font-size:18px;color:black;}
+    24%{height:auto;width:80%;border-radius:2%; margin-left:auto;margin-top:450px; z-index:10;background-image: url(fondtxtjupi.jpg); border-width: 2px;font-size:18px; color:rgb(200, 200, 200)}
+    25%{height:175px;width:80%;border-radius:2%; margin-left:auto;margin-top:450px; z-index:10;background-image: url(fondtxtjupi.jpg); border-width: 2px;font-size:0px;}
+    89%{height:194px; width:194px; border-radius:50%;}
+    90%{background-image: url(fondtxtjupi.jpg); border-width: 2px; margin-left:auto; margin-top: 450px;}
+    100%{background-image: url(textureJupiter.jpg); border-width: 0px; z-index: 1;color:rgb(200, 200, 200);}
+}
+
+@keyframes onmars
+{
+    0%{background-image: url(texturemars.jpg); border-width: 0px; z-index: 1;color:rgb(200, 200, 200);}
+    10%{background-image: url(fondtxtmars.jpg); border-width: 2px; margin-left:auto; margin-top: 600px;}
+    11%{height:25px; width:25px; border-radius:50%;margin-left:auto}
+    75%{height:175px;width:80%;border-radius:2%; margin-left:auto;margin-top:600px; z-index:10;background-image: url(fondtxtmars.jpg); border-width: 2px;font-size:0px;}
+    76%{height:auto;width:80%;border-radius:2%; margin-left:auto;margin-top:600px; z-index:10;background-image: url(fondtxtmars.jpg); border-width: 2px;font-size:18px;color:rgb(200, 200, 200);}
+    100%{height:auto;width:80%;border-radius:2%; margin-left:auto;margin-top:600px; z-index:10;background-image: url(fondtxtmars.jpg); border-width: 2px;font-size:18px;color:black;}
+}
+@keyframes outmars
+{
+    0%{height:auto;width:80%;border-radius:2%; margin-left:auto;margin-top:600px; z-index:10;background-image: url(fondtxtmars.jpg); border-width: 2px;font-size:18px;color:black;}
+    24%{height:auto;width:80%;border-radius:2%; margin-left:auto;margin-top:600px; z-index:10;background-image: url(fondtxtmars.jpg); border-width: 2px;font-size:18px; color:rgb(200, 200, 200)}
+    25%{height:175px;width:80%;border-radius:2%; margin-left:auto;margin-top:600px; z-index:10;background-image: url(fondtxtmars.jpg); border-width: 2px;font-size:0px;}
+    89%{height:25px; width:25px; border-radius:50%;}
+    90%{background-image: url(fondtxtmars.jpg); border-width: 2px; margin-left:auto; margin-top: 600px;}
+    100%{background-image: url(texturemars.jpg); border-width: 0px; z-index: 1;color:rgb(200, 200, 200);}
+}
+@keyframes onterre
+{
+    0%{background-image: url(textureterre.jpg); border-width: 0px; z-index: 1;color:rgb(200, 200, 200);}
+    10%{background-image: url(fondtxtterr.jpg); border-width: 2px; margin-left:auto; margin-top: 225px;}
+    11%{height:50px; width:50px; border-radius:50%;margin-left:auto; margin-top:225px}
+    75%{height:175px;width:80%;border-radius:2%; margin-left:auto;margin-top:225px; z-index:10;background-image: url(fondtxtterr.jpg); border-width: 2px;font-size:0px;}
+    76%{height:auto;width:80%;border-radius:2%; margin-left:auto;margin-top:225px; z-index:10;background-image: url(fondtxtterr.jpg); border-width: 2px;font-size:18px;color:rgb(200, 200, 200);}
+    100%{height:auto;width:80%;border-radius:2%; margin-left:auto;margin-top:225px; z-index:10;background-image: url(fondtxtterr.jpg); border-width: 2px;font-size:18px;color:black;}
+}
+@keyframes outterre
+{
+    0%{height:auto;width:80%;border-radius:2%; margin-left:auto;margin-top:225px; z-index:10;background-image: url(fondtxtterr.jpg); border-width: 2px;font-size:18px;color:black;}
+    24%{height:auto;width:80%;border-radius:2%; margin-left:auto;margin-top:225px; z-index:10;background-image: url(fondtxtterr.jpg); border-width: 2px;font-size:18px; color:rgb(200, 200, 200)}
+    25%{height:175px;width:80%;border-radius:2%; margin-left:auto;margin-top:225px; z-index:10;background-image: url(fondtxtterr.jpg); border-width: 2px;font-size:0px;}
+    89%{height:50px; width:50px; border-radius:50%;}
+    90%{background-image: url(fondtxtterr.jpg); border-width: 2px; margin-left:auto; margin-top: 225px;}
+    100%{background-image: url(textureterre.jpg); border-width: 0px; z-index: 1;color:rgb(200, 200, 200);}
+}
+@keyframes onvenus
+{
+    0%{background-image: url(texturevenus.jpg); border-width: 0px; z-index: 1;color:rgb(200, 200, 200);}
+    10%{background-image: url(fondtxtvenu.jpg); border-width: 2px; margin-left:auto; margin-top: 225px;}
+    11%{height:50px; width:50px; border-radius:50%;margin-left:auto; margin-top:225px;}
+    75%{height:175px;width:80%;border-radius:2%; margin-left:auto;margin-top:225px; z-index:10;background-image: url(fondtxtvenu.jpg); border-width: 2px;font-size:0px;}
+    76%{height:auto;width:80%;border-radius:2%; margin-left:auto;margin-top:225px; z-index:10;background-image: url(fondtxtvenu.jpg); border-width: 2px;font-size:18px;color:rgb(200, 200, 200);}
+    100%{height:auto;width:80%;border-radius:2%; margin-left:auto;margin-top:225px; z-index:10;background-image: url(fondtxtvenu.jpg); border-width: 2px;font-size:18px;color:black;}
+}
+@keyframes outvenus
+{
+    0%{height:auto;width:80%;border-radius:2%; margin-left:auto;margin-top:225px; z-index:10;background-image: url(fondtxtvenu.jpg); border-width: 2px;font-size:18px;color:black;}
+    24%{height:auto;width:80%;border-radius:2%; margin-left:auto;margin-top:225px; z-index:10;background-image: url(fondtxtvenu.jpg); border-width: 2px;font-size:18px; color:rgb(200, 200, 200)}
+    25%{height:175px;width:80%;border-radius:2%; margin-left:auto;margin-top:225px; z-index:10;background-image: url(fondtxtvenu.jpg); border-width: 2px;font-size:0px;}
+    89%{height:50px; width:50px; border-radius:50%;}
+    90%{background-image: url(fondtxtvenu.jpg); border-width: 2px; margin-left:auto; margin-top: 225px;}
+    100%{background-image: url(texturevenus.jpg); border-width: 0px; z-index: 1;color:rgb(200, 200, 200);}
+}
+@keyframes onmercure
+{
+    0%{background-image: url(texturemercure.jpg); border-width: 0px; z-index: 1;color:rgb(200, 200, 200);}
+    10%{background-image: url(fondtxtmerc.jpg); border-width: 2px; margin-left:auto; margin-top: 225px;}
+    11%{height:25px; width:25px; border-radius:50%;margin-left:auto; margin-top:225px;}
+    75%{height:175px;width:80%;border-radius:2%; margin-left:auto;margin-top:225px; z-index:10;background-image: url(fondtxtmerc.jpg); border-width: 2px;font-size:0px;}
+    76%{height:auto;width:80%;border-radius:2%; margin-left:auto;margin-top:225px; z-index:10;background-image: url(fondtxtmerc.jpg); border-width: 2px;font-size:18px;color:rgb(200, 200, 200);}
+    100%{height:auto;width:80%;border-radius:2%; margin-left:auto;margin-top:225px; z-index:10;background-image: url(fondtxtmerc.jpg); border-width: 2px;font-size:18px;color:black;}
+}
+@keyframes outmercure
+{
+    0%{height:auto;width:80%;border-radius:2%; margin-left:auto;margin-top:225px; z-index:10;background-image: url(fondtxtmerc.jpg); border-width: 2px;font-size:18px;color:black;}
+    24%{height:auto;width:80%;border-radius:2%; margin-left:auto;margin-top:225px; z-index:10;background-image: url(fondtxtmerc.jpg); border-width: 2px;font-size:18px; color:rgb(200, 200, 200)}
+    25%{height:175px;width:80%;border-radius:2%; margin-left:auto;margin-top:225px; z-index:10;background-image: url(fondtxtmerc.jpg); border-width: 2px;font-size:0px;}
+    89%{height:25px; width:25px; border-radius:50%;}
+    90%{background-image: url(fondtxtmerc.jpg); border-width: 2px; margin-left:auto; margin-top: 225px;}
+    100%{background-image: url(texturemercure.jpg); border-width: 0px; z-index: 1;color:rgb(200, 200, 200);}
+}
+@keyframes onsoleil
+{
+    0%{background-image: url(texturesoleil.jpg); border-width: 0px; z-index: 1;color:rgb(200, 200, 200);}
+    10%{background-image: url(fondtxtsole.jpg); border-width: 2px; margin-left:auto; margin-top: 225px;}
+    11%{height:500px; width:500px; border-radius:50%;margin-left:auto; margin-top:225px;}
+    75%{height:600px;width:90%;border-radius:2%; margin-left:auto;margin-top:225px; z-index:10;background-image: url(fondtxtsole.jpg); border-width: 2px;font-size:0px;}
+    76%{height:600px;width:90%;border-radius:2%; margin-left:auto;margin-top:225px; z-index:10;background-image: url(fondtxtsole.jpg); border-width: 2px;font-size:18px;color:rgb(200, 200, 200);}
+    100%{height:600px;width:90%;border-radius:2%; margin-left:auto;margin-top:225px; z-index:10;background-image: url(fondtxtsole.jpg); border-width: 2px;font-size:18px;color:black;}
+}
+@keyframes outsoleil
+{
+    0%{height:600px;width:90%;border-radius:2%; margin-left:auto;margin-top:225px; z-index:10;background-image: url(fondtxtsole.jpg); border-width: 2px;font-size:18px;color:black;}
+    24%{height:600px;width:90%;border-radius:2%; margin-left:auto;margin-top:225px; z-index:10;background-image: url(fondtxtsole.jpg); border-width: 2px;font-size:18px; color:rgb(200, 200, 200)}
+    25%{height:600px;width:90%;border-radius:2%; margin-left:auto;margin-top:225px; z-index:10;background-image: url(fondtxtsole.jpg); border-width: 2px;font-size:0px;}
+    89%{height:500px; width:500px; border-radius:50%;}
+    90%{background-image: url(fondtxtsole.jpg); border-width: 2px; margin-left:auto; margin-top: 225px;}
+    100%{background-image: url(texturesoleil.jpg); border-width: 0px; z-index: 1;color:rgb(200, 200, 200);}
+}
+}
+
+
+
+
