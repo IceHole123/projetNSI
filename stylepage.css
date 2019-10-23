@@ -1595,7 +1595,7 @@ article
     border-bottom-right-radius: 0%;
     justify-content: center;
     position:relative;
-    width:100%;
+    width:auto;
     height:85px;
     z-index:3;
 }
@@ -1606,7 +1606,7 @@ nav
     justify-content: center;
     position:absolute;
     top:85px;
-    width:100%;
+    width:auto;
     z-index:2;
     border-bottom-left-radius: 0%;
     border-bottom-right-radius:0%;
